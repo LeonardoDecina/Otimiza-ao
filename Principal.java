@@ -103,30 +103,18 @@ public class Principal{
 			for(int dias = 0; dias < 28; dias++){
 				if(enfermeiros[i].pesosSetados[dias] == 1){
 					auxSomaTM++;
-
-					if(enfermeiros[i].preferencias[dias] == 0){
-						auxSomaFolgaTM++;
-					}
 				}
 
 
 
 				if(enfermeiros[i].pesosSetados[dias] == 2){
 					auxSomaTT++;
-
-					if(enfermeiros[i].preferencias[dias] == 0){
-						auxSomaFolgaTT++;
-					}
 				}
 
 
 
 				if(enfermeiros[i].pesosSetados[dias] == 3){
 					auxSomaTN++;
-
-					if(enfermeiros[i].preferencias[dias] == 0){
-						auxSomaFolgaTN++;
-					}
 				}
 			}
 		}
